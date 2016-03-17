@@ -14,3 +14,11 @@ CONFIGURATION
 -------------
 
 Edit the file `webpack.config.js`
+
+
+USE
+---
+
+- ```npm run-script start```
+- ```npm run-script serv```
+- ```npm run-script prod```
