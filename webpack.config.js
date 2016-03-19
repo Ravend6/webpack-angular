@@ -30,11 +30,11 @@ if (NODE_ENV != 'development') {
 
 var config = {
   entry: {
-    app: ['babel-polyfill', SRC_DIR +'/main'],
-    vendor: [SRC_DIR +'/vendor'],
+    scripts: ['babel-polyfill', SRC_DIR + '/boot/scripts'],
+    styles: [SRC_DIR + '/boot/styles'],
   },
   output: {
-    path: __dirname + '/server/public/dist',
+    path: __dirname  + '/client/dist',
     publicPath: './dist/',
     filename: '[name]-bundle.js'
   },

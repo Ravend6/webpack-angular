@@ -51,3 +51,6 @@ node_modules/
 bower_components/
 *.log
 
+# tsd packages
+typings/
+

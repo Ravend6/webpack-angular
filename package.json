@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack --watch --progress --colors",
-    "serv": "concurrent \"npm run start\" \"http-server ./server/public -p 8000\" ",
+    "serv": "concurrent \"npm run start\" \"http-server ./client -p 8000\" ",
     "prod": "SET NODE_ENV=production & webpack --progress --colors",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

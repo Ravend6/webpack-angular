@@ -1,0 +1,18 @@
+// @import url('http://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic');
+body {
+  font-family: Roboto;
+  // background-image: url("../images/bg/bg.png")
+}
+
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak {
+  display: none !important;
+}
+
+.header .nav a {
+  text-decoration: none;
+}
